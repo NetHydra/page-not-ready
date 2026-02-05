@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.main_containt {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+.banner {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  margin: 0;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+.content_2 h1 {
+    color: white;
+}
+
+.card_tool-stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_tool-stack ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    list-style: none;
+    background-color: transparent;
+    display: flex;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card p {
+    color: rgb(178, 178, 178);
+    font-family: monospace;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+.card img {
+    width: 170px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.content_3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+.inside_content3 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.netopsy {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 100px;
+}
+
+.netopsy img {
+    width: 100%;
+}
+
+.netopsy-paragh {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.netopsy-paragh h1 {
+    color: greenyellow;
+    font-size: 2.5em;
+}
+
+.netopsy-paragh p {
+    color: white;
+    font-size: 1.5em;
+}
+
+#netopsy-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+.application-categoriez img {
+    width: 100%;
+}
+.application-categoriez {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 100px;
+}
+
+.image-nist-mitre {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
